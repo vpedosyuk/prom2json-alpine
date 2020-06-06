@@ -14,6 +14,4 @@ RUN \
   apk update \
   && apk add --no-cache netcat-openbsd
 
-ENTRYPOINT [ "/bin/sh" ]
-
-CMD [ "prom2json" ]
+ENTRYPOINT [ "prom2json" ]
